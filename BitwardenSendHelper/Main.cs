@@ -58,7 +58,7 @@ namespace BitwardenSendHelper
         }
 
         private void QuitToolStripMenuItemOnClick(object? sender, EventArgs e)
-        {
+        { 
             // Check to see if we are logged in.
             if (_cliProxy.IsLoggedIn)
             {
